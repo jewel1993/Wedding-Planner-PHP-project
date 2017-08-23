@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	line-height: 1.5em;
+	background: #f4f4f4
+}
+.navbar-custom {
+    color: #889005;
+    background-color: #0C3333;
+}
+#pageContent
+{
+	background: #333333;
+	margin: 50px auto;
+	overflow:auto;
+	width: 60%;
+	min-height:400px;
+}
+#chatbox
+{
+	width : 90%;
+	height: 400px;
+	overflow:auto;
+	margin: auto;
+	background: #309690; 
+}
+
+.centered
+{
+	text-align: center;
+}
+.fix
+{
+	position: relative;
+	position: fixed;
+	
+}
+.foot
+{
+	bottom: 0;
+    font-size: 1.5;
+    width :100%;
+    color: hotpink;
+    font-weight: bold;
+    background-color: black;
+}
+.game
+{
+	display:relative;
+}
+.game-title
+{
+	text-align: center;
+	padding: 5px;
+	background : #333;
+	color: #fff;
+}
+.abc
+{
+	text-align: center;
+	padding: 5px;
+	background : #333;
+	color: #fff;
+}
+.game img
+{
+	height:200px;
+	width: 100%;
+}
+.game-price{
+	position: absolute;
+	bottom : 80px;
+	right: 15px;
+	background : #3b7e14;
+	color: #fff;
+	padding: 5px;
+	font-size: 22px;
+}
+.game-add{
+	margin: 5px auto 20px auto;
+	text-align: center;
+}
+
+.btn0
+{
+	background : #59c000;
+	color : #ffffff;
+	font-weight: bold;
+	width: 100%;
+}
+.btn1
+{
+	background : #F9B767;
+	color : #060606;
+	font-weight: bold;
+}
+.btn2
+{
+	background : #B82020;
+	color : #ffffff;
+	font-weight: bold;
+}
+.chat
+{
+	border-bottom: 1px dotted;
+}

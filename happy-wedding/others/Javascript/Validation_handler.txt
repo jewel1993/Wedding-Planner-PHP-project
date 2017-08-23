@@ -1,0 +1,106 @@
+<script language="javascript">
+     function validate()
+{
+  var fname=document.reg.fn.value;
+  var lname=document.reg.ln.value;
+   var session=document.reg.session.value;
+    var rn=document.reg.rn.value;
+    var branch=document.reg.branch.value;
+     var year=document.reg.year.value;
+      var semester=document.reg.semester.value;
+       var mm=document.reg.mm.value;
+        var dd=document.reg.dd.value;
+         var yy=document.reg.yy.value;
+          var address=document.reg.address.value;
+
+if(fname=='')
+  {
+    window.alert("Please Enter fname!");
+    document.reg.fn.focus();
+    return false;
+
+ }
+
+ if(lname=='')
+  {
+    window.alert("Please Enter lname!");
+    document.reg.ln.focus();
+    return false;
+
+ }
+ if(session=='')
+  {
+    window.alert("Please Select Session!");
+    document.reg.session.focus();
+    return false;
+
+ }
+ if(rn=='')
+  {
+    window.alert("Enter Roll No!");
+    document.reg.rn.focus();
+    return false;
+
+ }
+ if(branch=='')
+  {
+    window.alert("Please Select Branch!");
+    document.reg.branch.focus();
+    return false;
+
+ }
+ if(year=='')
+  {
+    window.alert("Please Select Year!");
+    document.reg.year.focus();
+    return false;
+
+ }
+ if(semester=='')
+  {
+    window.alert("Please Select Semester!");
+    document.reg.semester.focus();
+    return false;
+
+ }
+ if(dd=='')
+  {
+    window.alert("Please Select Day!");
+    document.reg.dd.focus();
+    return false;
+
+ }
+ if(mm=='')
+  {
+    window.alert("Please Select Month!");
+    document.reg.mm.focus();
+    return false;
+
+ }
+ if(yy=='')
+  {
+    window.alert("Please Select Year!");
+    document.reg.yy.focus();
+    return false;
+
+ }
+ if(address=='')
+  {
+    window.alert("Please Select Address!");
+    document.reg.address.focus();
+    return false;
+
+ }
+
+
+}
+
+
+</script>
+
+
+
+
+
+
+<form method="POST" action="index_handler.php" name="reg" onSubmit="return validate()">
